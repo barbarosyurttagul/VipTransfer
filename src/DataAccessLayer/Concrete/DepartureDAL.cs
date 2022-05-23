@@ -23,7 +23,7 @@ namespace DataAccessLayer.Concrete
 
         public List<Departure> GetAll()
         {
-            throw new NotImplementedException();
+            return departures;
         }
     }
 }

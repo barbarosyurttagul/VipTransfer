@@ -5,7 +5,7 @@ namespace DataAccessLayer.Abstract
 {
 	public interface IDepartureDAL
 	{
-		public void Add(string name);
+		public void Add(Departure departure);
 
 		public List<Departure> GetAll();
 	}
